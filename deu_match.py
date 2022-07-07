@@ -7,7 +7,7 @@
 dados_temporarios = []
 candidatos_e_notas = []
 comparacao = []
-validNumbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+validNumbers = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 e = ''
 t = ''
 p = ''
@@ -106,6 +106,9 @@ def filtragem_de_dados():
         for pessoas, notas in enumerate(candidatos_e_notas, start=1):
             if notas[1] >= comparacao[0] and notas[2] >= comparacao[1] and notas[3] >= comparacao[2] and notas[4] >= comparacao[3]:
                 print(f"Candidato {pessoas} ==> {notas[1:]} foi aprovado.")
+            else:
+                print(f"Nenhum candidato aprovado com no mínimo: e_:{comparacao[0]}, t_:{comparacao[1]}, p_:{comparacao[2]}, s_:{comparacao[3]}.\n")
+            break
         exit()
 
 adicao_de_candidatos()
