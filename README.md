@@ -17,4 +17,4 @@
 
 *Ao buscar por alguém com resultados '4,4,8,8', por exemplo, o programa mostra que os candidatos 1 e 5 atendem a esse critério, foram bem no teste prático e apresentaram um ótimo nível de soft skills.*
 
-**O objetivo central desse projeto foi colcoar em prática os estudos sobre Listas em Python que estou realizando. Como não passa de um projeto iniciante, todo tipo de feedback e dicas para aprimorar esse código serão muito bem vindas!**
+**O objetivo central desse projeto foi colocar em prática os estudos sobre Listas em Python que estou realizando. Como não passa de um projeto iniciante, todo tipo de feedback e dicas para aprimorar esse código serão muito bem vindos!**

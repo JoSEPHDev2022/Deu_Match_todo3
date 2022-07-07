@@ -1,9 +1,9 @@
 # Definindo as variáveis e listas que serão usadas no programa:
-# - dados_temporarios: uma lista que abriga temporariamente os inputs do usuário inserindo os nomes e notas dos candidatos;
+# - dados_temporarios: uma lista que abriga temporariamente os inputs do usuário, inserindo os nomes e notas dos candidatos;
 # - candidatos_e_notas: a lista final composta pelos candidatos e suas notas;
 # - comparacao: lista que abriga os valores da nota de corte;
 # - validNumbers: lista de prevenção de erros. Abriga os valores esperados na atribuição de notas;
-# - e,t,p,s: notas de Entrevista, Teste Teórico, Teste Prático e Soft Skills.
+# - e,t,p,s: notas de Entrevista, Teste Teórico, Teste Prático e Soft Skills do candidato no processo seletivo.
 dados_temporarios = []
 candidatos_e_notas = []
 comparacao = []
@@ -18,7 +18,7 @@ p2 = ''
 s2 = ''
 
 # checkNotas(nota,letra): Função que checa a integridade do input. Faz com que os únicos valores
-# aceitos para atribuição de notas sejam numeros inteiros de 0 a 10.
+# aceitos para atribuição de notas sejam números inteiros de 0 a 10.
 def checkNotas(nota, letra):
     while True:
         if nota not in validNumbers:
@@ -29,7 +29,7 @@ def checkNotas(nota, letra):
             dados_temporarios.append(nota)
         break
 
-# checkNotaCore(nota,letra): Mesma função da função checkNotas, porém essa checa a integridade dos valores
+# checkNotaCorte(nota,letra): Mesma função da função checkNotas, porém essa checa a integridade dos valores
 # para as notas de corte.
 def checkNotaCorte(nota, letra):
     while True:
